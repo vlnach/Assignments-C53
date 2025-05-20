@@ -34,11 +34,10 @@ export function giveCompliment(name) {
   const random = Math.floor(Math.random() * compliments.length);
   const compliment = compliments[random];
 
-  return `You are ${compliment}, ${name}`;
+  return `You are ${compliment}, ${name}!`;
 }
 
 function main() {
-  // TODO substitute your own name for "HackYourFuture"
   const myName = 'VladNachikov';
 
   console.log(giveCompliment(myName));
