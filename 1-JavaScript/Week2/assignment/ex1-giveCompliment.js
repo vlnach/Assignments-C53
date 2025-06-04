@@ -18,7 +18,7 @@ Full description at: https://github.com/HackYourFuture/Assignments/tree/main/1-J
    `giveCompliment` function to the console.
 -----------------------------------------------------------------------------*/
 export function giveCompliment(name) {
-  let compliments = [
+  const compliments = [
     'great',
     'awesome',
     'amazing',

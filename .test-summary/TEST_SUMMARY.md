@@ -6,9 +6,10 @@
 
 |       Exercise       | Passed | Failed | ESLint |
 |----------------------|--------|--------|--------|
-| ex1-giveCompliment   |   53   |   72   |   ✓    |
-| ex2-dogYears         |   44   |   81   |   ✓    |
-| ex3-tellFortune      |   53   |   72   |   ✓    |
+| ex1-giveCompliment   |   7    |   -    |   ✓    |
+| ex2-dogYears         |   7    |   -    |   ✓    |
+| ex3-tellFortune      |   10   |   -    |   ✓    |
 | ex4-shoppingCart     |   -    |   -    |   ✓    |
 | ex5-shoppingCartPure |   -    |   -    |   ✓    |
 | ex6-totalCost        |   -    |   -    |   ✓    |
+| ex7-mindPrivacy      |   -    |   -    |   ✓    |
