@@ -14,12 +14,16 @@ Complete the `createObservable()` function as follows:
 
 export function createObservable() {
   const subscribers = [];
+
   return {
     subscribe(subscriber) {
-      // TODO complete this function
+      subscribers.push(subscriber);
     },
+
     notify(message) {
-      // TODO complete this function
+      for (const fn of subscribers) {
+        fn(message);
+      }
     },
   };
 }
