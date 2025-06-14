@@ -7,7 +7,18 @@ Full description at: https://github.com/HackYourFuture/Assignments/tree/main/2-B
    HackYourFuture logo instead.
 ------------------------------------------------------------------------------*/
 function hijackGoogleLogo() {
-  // TODO your code goes in here
+  const logo = document.querySelector('img.lnXdpd'); // Google logo
+
+  if (!logo) {
+    console.error('Google logo not found');
+    return;
+  }
+
+  const hyfLogoURL =
+    'https://raw.githubusercontent.com/HackYourFuture/Assignments/main/2-Browsers/Week1/assets/hyf-logo-black-bg-small.png';
+
+  logo.src = hyfLogoURL;
+  logo.srcset = '';
 }
 
 hijackGoogleLogo();

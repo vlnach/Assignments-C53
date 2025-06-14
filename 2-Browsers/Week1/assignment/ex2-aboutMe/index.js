@@ -7,5 +7,12 @@ Full description at: https://github.com/HackYourFuture/Assignments/tree/main/2-B
    `list-item`.
 3. Look in the css file!
 ------------------------------------------------------------------------------*/
+// 1st step - change a text inside spans
 
-// TODO add your JavaScript code here.
+document.getElementById('nickname').textContent = 'vlad';
+document.getElementById('fav-food').textContent = 'marsh potato';
+document.getElementById('hometown').textContent = 'Amsterdam';
+
+// 2d step - add classes
+const listItems = document.querySelectorAll('li');
+listItems.forEach((li) => li.classList.add('list-item'));
